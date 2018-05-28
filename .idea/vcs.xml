@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$/../FileWorker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../Server" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../ThreadDispatcher" vcs="Git" />
   </component>
