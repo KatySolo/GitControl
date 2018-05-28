@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../FileWorker/FileWorker.iml" filepath="$PROJECT_DIR$/../FileWorker/FileWorker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GitControl.iml" filepath="$PROJECT_DIR$/GitControl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Server/Server.iml" filepath="$PROJECT_DIR$/../Server/Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../ThreadDispatcher/ThreadDispatcher.iml" filepath="$PROJECT_DIR$/../ThreadDispatcher/ThreadDispatcher.iml" />
+    </modules>
+  </component>
+</project>
