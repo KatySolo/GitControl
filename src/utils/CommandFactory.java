@@ -2,23 +2,23 @@ package utils;
 
 import commands.*;
 import commands.Error;
-import javafx.util.Pair;
+import packets.ICommandPacket;
 
 public class CommandFactory {
 
-    public static ICommand create(ICommandPacket  packet) {
+    public static ICommand create(ICommandPacket packet) {
         switch (packet.getClass().getName()) {
-            case "packet.AddPacket":
+            case "packets.AddPacket":
                 return new Add(packet);
-            case "packet.ClonePacket":
+            case "packets.ClonePacket":
                 return new Clone(packet);
-            case "packet.UpdatePacket":
+            case "packets.UpdatePacket":
                 return new Update(packet);
-            case "packet.CommitPacket":
+            case "packets.CommitPacket":
                 return new Commit(packet);
-            case "packet.RevertPacket":
+            case "packets.RevertPacket":
                 return new Revert(packet);
-            case "packet.LogPacket":
+            case "packets.LogPacket":
                 return new Log(packet);
             default:
                 return new Error(packet);

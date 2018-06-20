@@ -1,6 +1,7 @@
 package utils;
 
 import javafx.util.Pair;
+import packets.ICommandPacket;
 import utils.provider.IDataProvider;
 
 public interface ICommand {

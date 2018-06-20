@@ -15,7 +15,7 @@ public interface IDataProvider {
     File[] getNeededVersion(String repName, String versionName) throws ProviderException;
 
     class ProviderException extends Exception {
-        ProviderException(String message) {
+        public ProviderException(String message) {
             super(message);
         }
     }
