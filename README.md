@@ -3,7 +3,7 @@
 
 Необходимые зависимости:
 <li>
-<ul>https://github.com/KatySolo/FIleWorker
-<ul>https://github.com/KatySolo/ThreadDispatcher 
+<ol>https://github.com/KatySolo/FIleWorker </ol>
+  <ol>https://github.com/KatySolo/ThreadDispatcher  </ol>
 </li>
 List of them will be updated
