@@ -2,7 +2,8 @@
 Система контроля версий на Java (проектная работа на курсе по ООП)
 
 Необходимые зависимости:
-https://github.com/KatySolo/FIleWorker <br>
-https://github.com/KatySolo/ThreadDispatcher <br>
-
+<li>
+<ul>https://github.com/KatySolo/FIleWorker </ul>
+<ul>https://github.com/KatySolo/ThreadDispatcher </ul>
+</li>
 List of them will be updated
